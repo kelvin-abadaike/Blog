@@ -5,7 +5,7 @@ const WhatsNew = () => {
   return (
     <div className="bg-white shadow-md">
       <div className="h-11 bg-gradient-to-r from-purple-300 to-purple-800 flex justify-center items-center">
-        <h4 className="text-white">WHAT'S NEW</h4>
+        <h4 className="text-white">WHATS NEW</h4>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
@@ -23,8 +23,8 @@ const WhatsNew = () => {
           </div>
         </div>
         <div className="p-5">
-          {[0, 1, 2].map((e) => (
-            <Card2 />
+          {[0, 1, 2].map((e, idx) => (
+            <Card2 key={idx}/>
           ))}
         </div>
       </div>

@@ -8,8 +8,8 @@ const FollowUs = () => {
       </div>
 
       <div>
-        {[0, 1, 2, 3, 4].map((e) => (
-          <div className="grid grid-cols-2 gap-3 p-3 ">
+        {[0, 1, 2, 3, 4].map((e, idx) => (
+          <div key={idx} className="grid grid-cols-2 gap-3 p-3 ">
             <div className="grid grid-cols-4 gap-2 border border-gray-200 border-solid">
               <div className="col-span-1 bg-purple-500"></div>
               <div className="col-span-3 flex flex-col">

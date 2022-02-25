@@ -7,8 +7,8 @@ const LatestPosts = () => {
         <h3 className="text-2xl ">Latest Posts</h3>
       </div>
 
-      {[0, 1, 2].map((e) => (
-        <div className="grid grid-cols-4 gap-3 mb-2">
+      {[0, 1, 2].map((e, idx) => (
+        <div key={idx} className="grid grid-cols-4 gap-3 mb-2">
           <div>
             <img className="h-full w-full object-cover" src={"/img/img6.jpg"} />
           </div>

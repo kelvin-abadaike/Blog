@@ -3,8 +3,8 @@ import React from "react";
 const Card3 = () => {
   return (
     <div>
-      {[0, 1, 2, 3, 4].map((e) => (
-        <div className="grid grid-cols-4 gap-3 mb-2">
+      {[0, 1, 2, 3, 4].map((e, idx) => (
+        <div key={idx} className="grid grid-cols-4 gap-3 mb-2">
         <div>
           <img className="h-full w-full object-cover" src={"/img/img4.jpg"} />
         </div>

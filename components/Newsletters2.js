@@ -15,7 +15,7 @@ const Newsletters2 = () => {
         <input
           type="text"
           placeholder="Enter Your Email"
-          className="bg-white text-purple-500 text-lg lg:text-md  w-full md:w-80 lg:w-full "
+          className="bg-white text-purple-500 text-lg lg:text-md w-full md:w-80 lg:w-full "
           style={{
             padding: "12px 8px",
             boxSizing: "border-box",

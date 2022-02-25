@@ -4,7 +4,7 @@ export const Reviews = () => {
   return (
     <div className="shadow-md">
       <div className="h-11 bg-gradient-to-r from-purple-300 to-purple-800 text-white flex justify-center items-center">
-        CLIENT'S REVIEWS
+        CLIENTS REVIEWS
       </div>
       <div className="p-5">
         <div className="py-6">

@@ -7,8 +7,8 @@ const MostReadable = () => {
         Most Readable
       </div>
       <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 pt-6 text-gray-100 ">
-        {[0, 1, 2, 3, 4, 5].map((e) => (
-          <div className="border-solid border-b border-gray-400 pb-5">
+        {[0, 1, 2, 3, 4, 5].map((e, idx) => (
+          <div key={idx} className="border-solid border-b border-gray-400 pb-5">
             <h5 className="text-xs pb-3">05 jan 2022</h5>
             <div className="text-sm">
               Here the Perfect Things To Say When Someone Is Rude

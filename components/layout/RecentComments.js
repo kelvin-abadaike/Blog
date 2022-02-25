@@ -7,8 +7,8 @@ const RecentComments = () => {
         <h3 className="text-2xl ">Recent Comments</h3>
       </div>
 
-      {[0, 1].map((e) => (
-        <div>
+      {[0, 1].map((e, idx) => (
+        <div key={idx}>
           <div className="grid grid-cols-2 place-content-start">
             <div>Mohins</div>
             <div>09 Jan 2022</div>
