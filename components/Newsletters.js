@@ -18,12 +18,11 @@ const Newsletters = () => {
           placeholder="Enter Your Email"
           className="bg-purple-600 text-white text-xs"
           style={{
-            padding: '12px 20px',
-            boxSizing: 'border-box',
-            border: 'none',
-            outline: 'none',
-            resize: 'vertical'
-
+            padding: "12px 20px",
+            boxSizing: "border-box",
+            border: "none",
+            outline: "none",
+            resize: "vertical",
           }}
         />
       </div>

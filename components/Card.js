@@ -23,8 +23,8 @@ const Card = () => {
             <p className="text-gray-600">
               <Link href="/SingleBlogPage">
                 <a>
-                  New tools tell you if your password have been hacked.
-                  Twitter's CEO gives the site a C for combatting Abuses Online
+                  New tools tell you if your password have been hacked. Twitter
+                  CEO gives the site a C for combatting Abuses Online
                 </a>
               </Link>
             </p>

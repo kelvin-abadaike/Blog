@@ -14,7 +14,9 @@ const Card4 = () => {
         <div>
           <div className="mb-3 flex">
             <div>
-              <h3 className="text-lg pr-5 text-purple-500 ">Joshua Anegbe . </h3>
+              <h3 className="text-lg pr-5 text-purple-500 ">
+                Joshua Anegbe .{" "}
+              </h3>
             </div>
             <div className="flex justify-center items-center text-gray-500">
               <p>05 Feb 2022</p>
@@ -28,9 +30,9 @@ const Card4 = () => {
             </p>
           </div>
           <div>
-              <Link href='#'>
-                  <a className="text-purple-500">Reply</a>
-              </Link>
+            <Link href="#">
+              <a className="text-purple-500">Reply</a>
+            </Link>
           </div>
         </div>
       </div>
