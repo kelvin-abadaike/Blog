@@ -19,8 +19,8 @@ const blog = () => {
 
       <div className="grid grid-col-1 md:grid-col-3 lg:grid-cols-4 mx-5 md:mx-10 gap-5">
         <div className="col-span-3 grid grid-col-1 md:grid-cols-2">
-          {[0, 1, 2, 3, 4, 5, 6, 7].map((e) => (
-            <Card5 key={id} />
+          {[0, 1, 2, 3, 4, 5, 6, 7].map((e, idx) => (
+            <Card5 key={idx} />
           ))}
         </div>
         <div className="col-span-3 lg:col-span-1 ">
