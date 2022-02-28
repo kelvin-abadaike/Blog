@@ -27,7 +27,7 @@ const Card5 = () => {
               <Link href="/SingleBlogPage">
                 <a>
                   New tools tell you if your password have been hacked.
-                  Twitter's CEO gives the site a C for combatting Abuses Online
+                  Twitter CEO gives the site a C for combatting Abuses Online
                 </a>
               </Link>
             </p>
