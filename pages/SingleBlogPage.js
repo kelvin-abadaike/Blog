@@ -50,7 +50,7 @@ const SingleBlogPage = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 ">
           <div className="px-10 py-36 bg-gray-500 text-center text-white mb-3 ">
-            Place Your Ads
+            Place An Advert
           </div>
           <div>
             <Section3 />
