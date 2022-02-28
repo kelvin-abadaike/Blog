@@ -11,14 +11,15 @@ import Comment from "../components/layout/Comment";
 import Comments from "../components/layout/Comments";
 import LeaveReply from "../components/LeaveReply";
 import Footer from "../components/Footer";
+import Jumbotron from "../components/layout/Jumbotron";
 
 const SingleBlogPage = () => {
   return (
     <div>
       <Navbar1 />
       <Navbar2 />
-      <BlogJumbotron />
-      <div className="grid grid-col-3 lg:grid-cols-4 mx-10 gap-5 ">
+      <Jumbotron />
+      <div className="grid grid-col-3 lg:grid-cols-4 px-5 gap-5 ">
         <div className="col-span-3">
           <div>
             <img src={"/img/img2.jpg"} />
